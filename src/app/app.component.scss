@@ -1,0 +1,51 @@
+#page{
+    border-color: #e6e6e6;
+    border-width: 0;
+    background: transparent;
+    color: #666666 !important; 
+ }
+
+ #main{
+    width: 968px;
+    margin: 0 auto;
+    display: table;    
+}
+
+#logo{
+    float:left;
+}
+
+ul.horizontalList{
+    padding-top: 30px;
+    float: right;
+}
+
+ul.horizontalList li{
+    width: auto;
+    float: left;
+    flex-direction: row;
+    list-style: none;
+    padding-left: 25px;
+}
+
+li.main-section a, a:link, a:visited, a:focus, a:hover, a:active{
+    color: #666666;
+    font-weight: 300;
+    font-size: 100%;      
+}
+
+.main-title{
+    background-color: #2895c2;
+    color: white;
+}
+
+.main-title-inner{
+    margin: 0 auto;
+    height: 64px;
+    width: 968px;
+    font-weight: normal;
+    font-size: 32px;
+    font-family: "Muli";
+    line-height: 64px;
+    vertical-align: middle;
+}
