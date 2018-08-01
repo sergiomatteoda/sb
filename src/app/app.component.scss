@@ -55,3 +55,22 @@ li.main-section a, a:link, a:visited, a:focus, a:hover, a:active{
     height: 64px;
     width: 968px;    
 }
+
+.inner-content{
+    background: #fff;
+    padding: 2rem;
+    margin-bottom: 25px;
+    box-sizing: inherit;
+    font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    font-weight: normal;
+    line-height: 1.5;
+    color: #222222;
+}
+
+.inner-content p {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
