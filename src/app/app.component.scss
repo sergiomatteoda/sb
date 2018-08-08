@@ -58,7 +58,7 @@ li.main-section a, a:link, a:visited, a:focus, a:hover, a:active{
 
 .inner-content{
     background: #fff;
-    padding: 2rem;
+    padding: 0.5rem;
     margin-bottom: 25px;
     box-sizing: inherit;
     font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
@@ -73,4 +73,85 @@ li.main-section a, a:link, a:visited, a:focus, a:hover, a:active{
     -webkit-margin-after: 1em;
     -webkit-margin-start: 0px;
     -webkit-margin-end: 0px;
+}
+
+.inner-content h2{
+    width: 100%;
+    margin: 0 0 1.5rem;
+    font-size: 2em;
+    font-weight: 700;
+    font-family: Noto Sans;
+}
+
+.inner-content a{
+    cursor: pointer;
+    text-decoration: none;
+    border-width: 0;
+    border-style: solid;
+    color: #2895c2;
+}
+
+.inner-content a:hover{
+    cursor: pointer;
+    text-decoration: none;
+    border-width: 0;
+    border-style: solid;
+    color: black;
+}
+
+.tutorial{
+    background: #efefef!important;
+}
+
+.font-weight-bold{
+    font-weight: bold !important;
+}
+
+.danger {
+    background-color: #ffdddd;
+    border-left: 6px solid #f44336;
+    padding: 4px 12px;
+}
+
+.success {
+    background-color: #ddffdd;
+    border-left: 6px solid #4CAF50;
+    padding: 4px 12px;
+}
+
+.info {
+    background-color: #e7f3fe;
+    border-left: 6px solid #2196F3;
+    padding: 4px 12px;
+}
+
+
+.warning {
+    background-color: #ffffcc;
+    border-left: 6px solid #ffeb3b;
+    padding: 4px 12px;
+}
+
+a.download-button{
+    background-color: #39b54a;
+    color: #fff !important;
+    padding: 15px 40px 18px;
+    border-radius: 15px;
+    font-size: 18px;
+    line-height: 18px;
+    margin: 15px 10px;
+    display: inline-block;
+}
+
+img.screenshot{
+    width: 435px;
+    height: 282px;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
 }

@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { TutorialsComponent } from './tutorials/tutorials.component';
 import { DownloadInstallComponent } from './tutorials/download-install/download-install.component';
+import { DataService } from './data.service';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,7 @@ import { DownloadInstallComponent } from './tutorials/download-install/download-
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [DataService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

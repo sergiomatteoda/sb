@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { DataService } from '../../data.service';
 
 @Component({
   selector: 'app-download-install',
@@ -7,9 +8,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DownloadInstallComponent implements OnInit {
 
-  constructor() { }
+  constructor(private _data: DataService) { }
 
   ngOnInit() {
+    this._data.setTitle("Dowloading & Installing SendBlaster");   
   }
 
 }
