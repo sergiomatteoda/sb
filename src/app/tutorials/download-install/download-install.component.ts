@@ -8,10 +8,16 @@ import { DataService } from '../../data.service';
 })
 export class DownloadInstallComponent implements OnInit {
 
-  constructor(private _data: DataService) { }
+  constructor(private _data: DataService){  
+  }
 
   ngOnInit() {
     this._data.setTitle("Dowloading & Installing SendBlaster");   
   }
+
+  scroll(el) {
+    debugger;
+    el.scrollIntoView();
+}
 
 }
