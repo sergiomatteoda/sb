@@ -7,13 +7,15 @@ import { HomeComponent } from './home/home.component';
 import { TutorialsComponent } from './tutorials/tutorials.component';
 import { DownloadInstallComponent } from './tutorials/download-install/download-install.component';
 import { DataService } from './data.service';
+import { TutorialCardComponent } from './tutorial-card/tutorial-card.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     TutorialsComponent,
-    DownloadInstallComponent
+    DownloadInstallComponent,
+    TutorialCardComponent
   ],
   imports: [
     BrowserModule,

@@ -52,8 +52,10 @@ li.main-section a, a:link, a:visited, a:focus, a:hover, a:active{
 
 .body-inner{
     margin: 0 auto;
-    height: 64px;
-    width: 968px;    
+    min-height: 64px;
+    width: 968px;
+    overflow: hidden;
+    background: #efefef !important;
 }
 
 .inner-content{
