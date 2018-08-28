@@ -1,3 +1,21 @@
-<p>
-  tutorial-card works!
-</p>
+<div class class="card-wrap">
+  <div class="card">
+    <div class="card-image" [ngStyle]="{'background-color': backgroundcolor}">
+      <a  routerLink={{routerLink}}>
+      <div class="image-bg" [ngStyle]="{'background-image': backgroundimageurl}"></div>
+      </a>
+    </div>
+    <div class="card-content-frame">
+      <a class="card-content fixed" routerLink={{routerLink}}>
+        <span class="title">{{title}}</span>
+        <p class="desc">{{desc}}</p>
+      </a>
+      <div class="card-bottom">
+        <span class="level">
+          <span class="diff-badge beginner"></span>
+          <span>{{level}}</span>
+        </span>
+      </div>
+    </div>
+  </div>
+</div>

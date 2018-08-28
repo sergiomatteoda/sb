@@ -5,8 +5,8 @@
   </h2>
   In this tutorial you will learn to:
   <ul>
-      <li>Download SendBlaster</li>
-      <li>Install SendBlaster</li>
+      <li><a class="font-weight-bold" (click)="scroll(Download)">Download SendBlaster</a></li>
+      <li><a class="font-weight-bold" (click)="scroll(Install)">Install SendBlaster</a></li>
   </ul>
   <p>
   We will show how to download and install SendBlaster in Windows 10, however SendBlaster can be installed on any windows version.
@@ -32,7 +32,7 @@
   </ul>  
 </div>
 
-<div class="inner-content main-title clearfix">
+<div class="inner-content main-title clearfix" #Download>
     <h2>
         Download SendBlaster
     </h2>
@@ -50,7 +50,7 @@
  </p>
  </div>
 
-<div class="inner-content main-title clearfix">
+<div class="inner-content main-title clearfix" #Install>
     <h2>
         Install SendBlaster
     </h2>
@@ -109,7 +109,21 @@ so SendBlaster can be installed. Wait for a few seconds...
     <h2>
         Customer Information
     </h2>
+    <div style="overflow: hidden;">   
     <img class="screenshot" src="./assets/img/download-install/sendblaster-customer-information.png" alt="Customer Information">
+    <p>
+        This step will let you specify your <em><b>"user name"</b></em> and <em><b>"organization"</b></em>, when available this details will be retrived from your windows installation. You may specify any details here, SendBlaster will not actually make use of this information.  
+    </p>
+    <p>
+        You will also be required to specify wether SendBlaster will be available for <em><b>"Anyone who uses this computer"</b></em> or <em><b>"Only for me"</b></em>. If there are several windows user accounts created in your computer, and you select the first option, then all windows users will be able to use SendBlaster, on the other hand, if you select the second option, only you will be able to use SendBlaster.
+    </p>
+</div>
+<p class="info clearfix">
+    <span class="font-weight-bold">Note:</span> If you have several windows user accounts and you want to provide access to SendBlaster to more than one windows account, but not <em><b>"Anyone who uses this computer"</b></em> select <em><b>"Only for me"</b></em> option, and repeat the entire installation process under each windows user account where you want to provide access to SendBlaster.
+</p>
+<p class="info clearfix">
+    <span class="font-weight-bold">Note:</span> While it´s possible to install SendBlaster under more than one windows user account, each installation will be treated as an independant installation, ie: if there´s a windows account named Joe, and another windows account namde Jane, then Joe and Jane will not share contact lists or any other SendBlaster data, each user will have a completly different set of user data.
+</p>
 </div>
 
 <div #TroubleShooting class="inner-content main-title clearfix">

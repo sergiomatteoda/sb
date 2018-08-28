@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-tutorial-card',
@@ -6,8 +6,20 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./tutorial-card.component.scss']
 })
 export class TutorialCardComponent implements OnInit {
+  @Input() backgroundcolor : string;
+  @Input() imageurl : string;
+  @Input() routerLink : string;
+  @Input() title : string;
+  @Input() desc : string;
+  @Input() level: string;
 
-  constructor() { }
+  get backgroundimageurl():string{
+    return "url(."+this.imageurl+")";
+  }
+
+  constructor() { 
+  
+  }
 
   ngOnInit() {
   }
