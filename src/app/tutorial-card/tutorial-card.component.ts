@@ -14,7 +14,7 @@ export class TutorialCardComponent implements OnInit {
   @Input() level: string;
 
   get backgroundimageurl():string{
-    return "url(."+this.imageurl+")";
+    return "url("+this.imageurl+")";
   }
 
   constructor() { 
