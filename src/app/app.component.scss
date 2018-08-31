@@ -145,6 +145,25 @@ a.download-button{
     display: inline-block;
 }
 
+a.download-button:hover{
+    background-color: #88d392;
+}
+
+a.submit-ticket{
+    background-color: #ccc;
+    color: #333 !important;
+    padding: 15px 40px 18px;
+    border-radius: 15px;
+    font-size: 18px;
+    line-height: 18px;
+    margin: 15px 10px;
+    display: inline-block;
+}
+
+a.submit-ticket:hover{
+    background-color: #efefef;
+}
+
 img.screenshot{
     width: 435px;
     height: 282px;

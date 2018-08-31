@@ -2,7 +2,8 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { HomeComponent } from './home/home.component';     
 import { TutorialsComponent } from './tutorials/tutorials.component';  
-import { DownloadInstallComponent } from './tutorials/download-install/download-install.component';  
+import { DownloadInstallComponent } from './tutorials/download-install/download-install.component'; 
+import { RegisterComponent} from "./tutorials/register/register.component"; 
 
 const routes: Routes = [
   {
@@ -16,7 +17,11 @@ const routes: Routes = [
   {
     path: 'tutorials/download-install',
     component: DownloadInstallComponent
-  }
+  },
+  {
+    path: 'tutorials/register',
+    component: RegisterComponent
+  } 
 ];
 
 @NgModule({
