@@ -4,6 +4,7 @@ import { HomeComponent } from './home/home.component';
 import { TutorialsComponent } from './tutorials/tutorials.component';  
 import { DownloadInstallComponent } from './tutorials/download-install/download-install.component'; 
 import { RegisterComponent} from "./tutorials/register/register.component"; 
+import { SendingFirstNewsletterComponent } from "./tutorials/sending-first-newsletter/sending-first-newsletter.component";
 
 const routes: Routes = [
   {
@@ -15,11 +16,15 @@ const routes: Routes = [
     component: TutorialsComponent
   },
   {
-    path: 'tutorials/download-install',
-    component: DownloadInstallComponent
+    path: 'tutorials/sending-your-first-newsletter',
+    component: SendingFirstNewsletterComponent
   },
   {
-    path: 'tutorials/register',
+    path: 'tutorials/download-install',
+    component: DownloadInstallComponent
+  },  
+  {
+    path: 'tutorials/register-sendblaster-free',
     component: RegisterComponent
   } 
 ];

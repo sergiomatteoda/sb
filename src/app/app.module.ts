@@ -9,6 +9,7 @@ import { DownloadInstallComponent } from './tutorials/download-install/download-
 import { DataService } from './data.service';
 import { TutorialCardComponent } from './tutorial-card/tutorial-card.component';
 import { RegisterComponent } from './tutorials/register/register.component';
+import { SendingFirstNewsletterComponent } from './tutorials/sending-first-newsletter/sending-first-newsletter.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { RegisterComponent } from './tutorials/register/register.component';
     TutorialsComponent,
     DownloadInstallComponent,
     TutorialCardComponent,
-    RegisterComponent
+    RegisterComponent,
+    SendingFirstNewsletterComponent
   ],
   imports: [
     BrowserModule,
